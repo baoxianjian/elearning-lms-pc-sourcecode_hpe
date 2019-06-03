@@ -1,0 +1,516 @@
+.get {
+  background: #1E5B94;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+.get-title {
+  font-size: 200%;
+  border: 2px solid #fff;
+  padding: 20px;
+  display: inline-block;
+}
+.get-btn {
+  background: #ffffff;
+}
+.detail {
+  background: #ffffff;
+}
+.detail-h2 {
+  text-align: center;
+  font-size: 150%;
+  margin: 40px 0;
+}
+.detail-h3 {
+  color: #1f8dd6;
+}
+.detail-p {
+  color: #7f8c8d;
+}
+.detail-mb {
+  margin-bottom: 30px;
+}
+.hope {
+  background: #0bb59b;
+  padding: 50px 0;
+}
+.hope-img {
+  text-align: center;
+}
+.hope-hr {
+  border-color: #149c88;
+}
+.hope-title {
+  font-size: 140%;
+}
+.about {
+  background: #fff;
+  padding: 40px 0;
+  color: #7f8c8d;
+}
+.about-color {
+  color: #34495e;
+}
+.about-title {
+  font-size: 180%;
+  padding: 30px 0 50px 0;
+  text-align: center;
+}
+.footer p {
+  color: #7f8c8d;
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  background: #2d3e50;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+#collapse-head {
+  float: right;
+}
+.am-container {
+  max-width: 1440px;
+}
+.scrollspy-nav {
+  display: block;
+  width: 100%;
+  height: 100px;
+  background: #0bb59b;
+  color: #fff;
+  text-align: center;
+}
+.scrollspy-nav ul {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.scrollspy-nav ul,
+.scrollspy-nav li {
+  list-style: none;
+}
+.scrollspy-nav li {
+  display: block;
+  width: 20%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.scrollspy-nav a {
+  color: #eee;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.scrollspy-nav a:hover {
+  background: #78d9ca;
+}
+.scrollspy-nav a:hover i {
+  transform: rotate(50deg);
+}
+.scrollspy-nav a i {
+  margin: 10px 0;
+  transition: 0.3s;
+}
+.scrollspy-nav .am-active {
+  color: #fff;
+  font-weight: bold;
+}
+.scrollspy-nav .am-active i {
+  color: #0bb59b;
+}
+.am-slider-default .am-direction-nav a:before {
+  font-size: 40px !important;
+  color: #ffffff !important;
+}
+.img_des {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+}
+.img_des .img_btn {
+  display: inline;
+  padding: 10px 50px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+}
+.img_des .img_btn:hover {
+  background: #fff;
+  opacity: 0.7;
+  color: #137ab0;
+}
+.detail-h2 {
+  margin-top: 15px;
+}
+.detail-h3,
+.detail-p {
+  text-align: center;
+  color: #383838;
+}
+.detail-h3 i {
+  width: 100px;
+  height: 100px;
+  background: #e25b58;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 26px;
+  line-height: 95px;
+  transition: 0.3s;
+}
+.detail-mb {
+  padding-top: 30px;
+}
+.detail-mb:hover i {
+  transform: scale(1.2);
+}
+.searchBtn input {
+  display: none;
+}
+.searchBtn:hover i {
+  display: none;
+}
+.searchBtn:hover input {
+  display: block;
+}
+#about,
+#team,
+#second,
+#ep,
+#third {
+  margin: 0;
+  padding: 160px 0;
+}
+#about,
+#second {
+  background: url(../i/bg_3.png) no-repeat center center;
+}
+#team {
+  background: url(../i/bg_7.png) no-repeat center center;
+}
+#team i {
+  background: #3bb4f2;
+}
+#ep,
+#third {
+  background: url(../i/bg_2.png) no-repeat center center;
+}
+#ep i,
+#third i {
+  background: #f37b1d;
+}
+#toTop {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+}
+#makersWorld i {
+  background: #0067b1;
+}
+.projectHolder {
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin: 10px 0;
+}
+.projectHolder:hover {
+  box-shadow: 0 0 5px 1px #ccc;
+}
+.projectHolder a {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.projectHolder img {
+  width: 100%;
+  height: auto;
+}
+.detail_project strong {
+  font-size: 22px;
+}
+.detail_project_info {
+  font-size: 14px;
+  text-align: center;
+}
+.detail_project_info strong {
+  color: #ccc;
+}
+.am-table {
+  text-align: center;
+}
+.am-table th {
+  text-align: center;
+  background: #f3f3f3;
+}
+.am-table td {
+  line-height: 40px !important;
+  padding: 20px 0 !important;
+}
+.am-table td:first-child {
+  text-align: left;
+  line-height: 22px !important;
+}
+.am-table td:first-child img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 0 20px 0 20px;
+  transition: 0.3s;
+}
+.am-table td:first-child a {
+  font-size: 14px;
+  font-weight: bold;
+}
+.am-table td:first-child p {
+  font-size: 14px;
+  margin: 0;
+}
+.am-table tr:hover img {
+  transform: scale(1.2);
+}
+.am-panel-hd {
+  font-size: 24px;
+  font-weight: bold;
+}
+.am-panel-hd i {
+  margin-right: 10px;
+  color: #0bb59b;
+}
+.am-panel-md i {
+  margin-right: 10px !important;
+  color: #0bb59b !important;
+}
+.filterPanel {
+  font-size: 14px;
+  padding: 20px 0;
+}
+.filterPanel dl {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.filterPanel dt {
+  float: left;
+  display: block;
+  height: auto;
+  width: 150px;
+  text-align: right;
+}
+.filterPanel dd {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  float: left;
+  margin-top: -3px;
+}
+.filterPanel ul,
+.filterPanel li {
+  list-style: none;
+}
+.filterPanel ul {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.filterPanel li {
+  display: inline;
+  padding: 3px 6px;
+  float: left;
+}
+.filterPanel .activeTag {
+  background: #0e90d2;
+  color: #fff;
+}
+.filterPanel a {
+  color: #353535;
+  padding: 2px 5px;
+}
+.filterPanel a:hover {
+  background: #0e90d2;
+  color: #fff;
+}
+.myProject .detail-mb {
+  margin-bottom: 20px;
+}
+.myLesson .detail-mb {
+  margin-bottom: 10px;
+}
+.nameCard {
+  border: 1px solid #eee;
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+.nameCard .boxHead a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-left: 13%;
+  box-shadow: 0px 0px 1px 1px #ccc;
+}
+.nameCard .boxHead a:hover {
+  box-shadow: 0 0 2px 2px #ccc;
+}
+.nameCard img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.nameCard .boxHead {
+  display: block;
+  width: 100%;
+  height: 65px;
+  border: 1px solid #ccc;
+  background: url(../i/boxheadBG.jpeg) no-repeat center -11px;
+}
+.nameCard .boxHead h4 {
+  position: relative;
+  top: 25px;
+  left: 33%;
+}
+.nameCard .boxBody {
+  padding: 25px 15px 15px 15px;
+}
+.nameCard h3 {
+  text-align: center;
+}
+.nameCard .info {
+  margin: 10px 0 20px 0;
+}
+.events {
+  margin: 5px 0;
+  border: 1px solid #eee;
+}
+.events img {
+  float: left;
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+.policy {
+  border: 1px solid #eee;
+  margin: 10px 0 20px 0;
+}
+.policy ul,
+.policy li {
+  list-style: none;
+}
+.policy ul {
+  padding-left: 0;
+  line-height: 3rem;
+  margin: 10px 0 ;
+}
+.policy a {
+  font-size: 14px;
+  color: #5e5e5e;
+  font-weight: normal;
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+}
+.policy a:hover {
+  font-weight: bold;
+  color: #0e90d2;
+}
+.policy .tag1 {
+  border-color: #D0CCE5 !important;
+}
+.policy .tag2 {
+  border-color: #ffbea7 !important;
+}
+.policy .tag3 {
+  border-color: #A2C1DE !important;
+}
+.policy .tag4 {
+  border-color: #C5DFD6 !important;
+}
+.policy .tag5 {
+  border-color: #F2BFBE !important;
+}
+.policyTable td {
+  font-size: 12px !important;
+  line-height: 20px !important;
+  padding: 10px !important;
+  vertical-align: middle !important;
+}
+.btnGroup {
+  position: absolute;
+  display: block;
+  width: 400px;
+  right: 37px;
+  top: 15px;
+  text-align: right;
+}
+.btnGroup a {
+  padding-left: 10px;
+  margin-right: 20px;
+}
+.makerSlide {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: url(../i/slideMakes2.svg) repeat center center;
+}
+.makerSlide .des {
+  display: block;
+  width: 80%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-align: center;
+}
+.makerSlide .des h1,
+.makerSlide .des p {
+  color: #fff;
+}
+.makerSlide .des h1 {
+  font-size: 4rem;
+}
+.makerSlide .des p {
+  font-size: 2rem;
+}
+
+.popUp{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.notice{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  color: #fff;
+  z-index: 1000;
+}
+
+.notice p{
+  text-align: right;
+}
+
+.notice img{
+  width: 100%;
+}
+
+.hide{
+  display: none;
+}

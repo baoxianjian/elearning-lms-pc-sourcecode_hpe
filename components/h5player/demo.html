@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0">
+<title>Music Player</title>
+<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="ui.css" />
+<script src="dist/player-with-css.min.js"></script>
+</head>
+<body>
+<center><button id="load"></button></center>
+<div id="player"></div>
+<script src="dist/ui.js"></script>
+<script>
+var player = new Player({
+    container: document.getElementById('player'),
+    image: 'http://example.com/path/to/default/image',
+});
+player.setSongs([
+    {
+        name: 'Song1',
+        url: 'http://example.com/path/to/song1.mp3',
+    }, {
+        name: 'Song2',
+        url: 'http://example.com/path/to/song2.mp3',
+    }
+]);
+player.play(0);
+</script>
+</body>
+</html>

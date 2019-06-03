@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="ZH">
+    <meta charset="UTF-8">
+    <title>中国惠普大学移动学习客户端下载</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="assets/css/plus.css" />
+    <style type="text/css">
+        .detail-mb {
+            margin: 10px 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<header class="am-topbar" style="height:10px!important;background-color:#383838;margin:0;min-height:10px;"></header>
+<header class="am-topbar ">
+    <div class="am-container">
+        <h1 class="am-topbar-brand">
+            <a href="index.html">中国惠普大学移动学习客户端下载</a>
+        </h1>
+    </div>
+</header>
+<div class="detail am-panel am-panel-default">
+    <div class="am-u-sm-12 detail-mb ">
+        <a href="###"><img src="assets/img/login_head.jpeg" style="width:100%;"></a>
+    </div>
+    <div class="am-g am-container">
+        <div class="am-u-lg-12">
+            <div class="projectHolder">
+                <div class="am-u-sm-12 detail-mb">
+                    <p class="detail_project_info">
+                        <strong>灵活: </strong> 随时随地随需学习
+                    </p>
+                    <p class="detail_project_info">
+                        <strong>统一: </strong> 完美融合线上线下
+                    </p>
+                    <p class="detail_project_info">
+                        <strong>社交: </strong> 在分享中激励学习
+                    </p>
+                    <a href="###" class="am-btn am-btn-success am-radius am-btn-md downloadBtn" style="margin-bottom:20px;">安装客户端</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer" style="margin-top:60px">
+    <p style="font-size:14px;">© 2015 <a href="###" target="_blank">中国惠普大学</a></p>
+</footer>
+<div class="popUp hide"></div>
+<div class="notice hide">
+    <p>请点击右上角并选择"在Safari中打开"</p>
+    <img src="assets/img/example.png">
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+    var version = navigator.userAgent;
+    var host = window.location.host;
+    if (version.indexOf('iPhone') > -1 || version.indexOf('iPad') > -1) {
+        console.log('iPhone,iPad平台');
+        if (version.indexOf('MicroMessenger') > -1) {
+            $('.popUp').removeClass('hide');
+            $('.notice').removeClass('hide');
+        } else {
+            //填写ios的下载地址
+            $('.downloadBtn').attr('href', 'itms-services://?action=download-manifest&url=https://' + host + '/install/app/ios/elearning.plist');
+            window.location = 'itms-services://?action=download-manifest&url=https://' + host + '/install/app/ios/elearning.plist';
+        }
+    } else if (version.indexOf('Android') > -1) {
+        console.log('Android平台');
+        if (version.indexOf('MicroMessenger') > -1) {
+            $('.popUp').removeClass('hide');
+            $('.notice').removeClass('hide');
+            $('.notice img').attr('src', 'assets/img/example2.png');
+            $('.notice p').text('请点击右上角并选择"在浏览器中打开"');
+        } else {
+            //填写android的下载地址
+            $('.downloadBtn').attr('href', 'http://' + host + '/install/app/android/elearning.apk');
+            window.location = 'http://' + host + '/install/app/android/elearning.apk';
+        }
+    } else {
+        console.log("其他所有平台");
+    }
+</script>
+</body>
+</html>
